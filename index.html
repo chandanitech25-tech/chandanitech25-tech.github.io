@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandani Chaurasiya | Personal Portfolio</title>
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="Portfolio of Chandani Chaurasiya - Computer Science Engineering Student, Full Stack Developer, and Open Source Contributor. Expressing skills in Java, HTML, CSS, JavaScript, and MERN stack.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background glowing shapes for premium atmosphere -->
+    <div class="blob-bg">
+        <div class="blob blob-purple"></div>
+        <div class="blob blob-teal"></div>
+        <div class="blob blob-indigo"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Chandani<span>.tech</span></a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <a href="#contact" class="btn btn-nav-cta">Let's Talk</a>
+                <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-hero">
+                        <span class="pulse-dot"></span> Available for Internships
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Chandani Chaurasiya</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span class="typing-text" id="typing-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-description">
+                        Motivated Computer Science Engineering student with a strong foundation in Java, Web Technologies, and DBMS. Passionate about building modern, real-world full-stack applications and contributing to the open-source ecosystem.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="mailto:chandani.tech25@gmail.com" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com/in/chandani-chaurasiya-71a2b5397" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:chandani.tech25@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <div class="profile-frame animate-glow">
+                        <img src="assets/profile_photo.jpg" alt="Chandani Chaurasiya" class="profile-image">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" aria-label="Scroll Down">
+                    <div class="mouse-icon">
+                        <div class="mouse-wheel"></div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section-padding" id="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle-tag">About Me</span>
+                    <h2 class="section-title">My Journey & Ambitions</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-info-card glass-card">
+                        <h3>Career Objective</h3>
+                        <p>
+                            Currently contributing to a structured 6-month Open Source Development Program while leveling up as a Full Stack Developer focusing on the MERN stack. I love combining problem-solving with building UI components and robust backend services. I am actively seeking an internship opportunity where I can collaborate on high-impact software engineering projects, gain industry mentorship, and translate academic learning into tangible production outcomes.
+                        </p>
+                        <div class="education-block">
+                            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="edu-details">
+                                <h4>B.Tech in Computer Science & Engineering</h4>
+                                <p class="edu-org">PW Institute of Innovation</p>
+                                <p class="edu-degree-award">Degree awarded by Medhavi Skills University</p>
+                                <span class="edu-date">Expected Graduation: 2029</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-stats-card glass-card">
+                        <h3>Core Qualities</h3>
+                        <div class="soft-skills-container">
+                            <div class="soft-skill-badge"><i class="fa-solid fa-brain"></i> Problem Solving</div>
+                            <div class="soft-skill-badge"><i class="fa-solid fa-magnifying-glass-chart"></i> Analytical Thinking</div>
+                            <div class="soft-skill-badge"><i class="fa-solid fa-users"></i> Team Collaboration</div>
+                            <div class="soft-skill-badge"><i class="fa-solid fa-comments"></i> Communication</div>
+                            <div class="soft-skill-badge"><i class="fa-solid fa-arrows-spin"></i> Adaptability</div>
+                            <div class="soft-skill-badge"><i class="fa-solid fa-bolt"></i> Quick Learner</div>
+                            <div class="soft-skill-badge"><i class="fa-solid fa-clock"></i> Time Management</div>
+                        </div>
+                        <div class="quick-facts">
+                            <h4>Quick Facts</h4>
+                            <ul class="facts-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Actively learning MERN Stack (React, Node, Express, MongoDB)</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Familiar with Git & GitHub workflow and collaboration</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Enthusiastic about structural data storage & query design (DBMS/SQL)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="skills-section section-padding" id="skills">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle-tag">Technical Skills</span>
+                    <h2 class="section-title">What I Work With</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-category-card glass-card animate-on-scroll">
+                        <div class="category-header">
+                            <div class="category-icon icon-purple"><i class="fa-solid fa-code"></i></div>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>Java</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>JavaScript</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>Basic Python</span>
+                                    <span class="skill-percent">55%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 55%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>Basic C++</span>
+                                    <span class="skill-percent">50%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 50%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-category-card glass-card animate-on-scroll">
+                        <div class="category-header">
+                            <div class="category-icon icon-teal"><i class="fa-solid fa-laptop-code"></i></div>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>HTML5 / CSS3</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>React.js <small class="learning-tag">Learning</small></span>
+                                    <span class="skill-percent">45%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 45%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>Node.js / Express.js <small class="learning-tag">Learning</small></span>
+                                    <span class="skill-percent">40%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 40%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Tools -->
+                    <div class="skill-category-card glass-card animate-on-scroll">
+                        <div class="category-header">
+                            <div class="category-icon icon-indigo"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                            <h3>Databases & Tools</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>DBMS & SQL</span>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 70%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>Git & GitHub</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>Visual Studio Code</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span>Microsoft Excel (Basic)</span>
+                                    <span class="skill-percent">60%</span>
+                                </div>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 60%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section class="experience-section section-padding" id="experience">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle-tag">Experience & Timelines</span>
+                    <h2 class="section-title">My Technical Track</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline-container">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                            <div class="marker-line"></div>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">July 2026 - Present</span>
+                            <h3>Open Source Contributor</h3>
+                            <p class="timeline-role-location">Remote</p>
+                            <p class="timeline-description">
+                                Contributing to a structured 6-month Open Source Development Program. Expanding workflows in version control using Git and GitHub including pull requests, code reviews, and remote branch synchronization. Practicing modular architecture and clean code structure in collaborative repositories.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-marker">
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">August 2025 - Present</span>
+                            <h3>B.Tech Student (Computer Science)</h3>
+                            <p class="timeline-role-location">PW Institute of Innovation</p>
+                            <p class="timeline-description">
+                                Gaining deep theoretical foundation in algorithms, database design (DBMS & SQL), object-oriented programming with Java, and modern web application layers. Awarded by Medhavi Skills University.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section section-padding" id="projects">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle-tag">My Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card glass-card animate-on-scroll">
+                        <div class="project-img-wrapper">
+                            <div class="project-mock-img project-bg-1">
+                                <i class="fa-solid fa-robot"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Repo"><i class="fa-brands fa-github"></i> Source</a>
+                                    <a href="#" class="demo-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tags">
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>AI API</span>
+                            </div>
+                            <h3>AI Resume Builder & Analyzer</h3>
+                            <p>
+                                A MERN stack application designed to automate resume building and conduct AI-based profile scoring. Helps job seekers optimize keywords for applicant tracking systems.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card glass-card animate-on-scroll">
+                        <div class="project-img-wrapper">
+                            <div class="project-mock-img project-bg-2">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Repo"><i class="fa-brands fa-github"></i> Source</a>
+                                    <a href="#" class="demo-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>GitHub API</span>
+                            </div>
+                            <h3>GitHub User Explorer</h3>
+                            <p>
+                                Connects to GitHub API to search developers, fetching real-time repository metadata, public profile details, follower analytics, and commit languages.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="project-card glass-card animate-on-scroll">
+                        <div class="project-img-wrapper">
+                            <div class="project-mock-img project-bg-3">
+                                <i class="fa-solid fa-cubes"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub Repo"><i class="fa-brands fa-github"></i> Source</a>
+                                    <a href="#" class="demo-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tags">
+                                <span>Vanilla HTML</span>
+                                <span>CSS Variables</span>
+                                <span>JS DOM</span>
+                            </div>
+                            <h3>PortfolioCraft</h3>
+                            <p>
+                                An interactive web editor allowing developers to generate their professional portfolios instantly. Drag-and-drop sections with downloadable templates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements-section section-padding" id="achievements">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle-tag">Accomplishments</span>
+                    <h2 class="section-title">Milestones & Achievements</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="achievements-grid">
+                    <!-- Achievement 1 -->
+                    <div class="achievement-card glass-card animate-on-scroll">
+                        <div class="ach-icon-container">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3>Open Source Initiative Selection</h3>
+                        <p>Selected as a contributor to a structured 6-month Open Source Development Program to collaborate with senior developers on production code.</p>
+                    </div>
+
+                    <!-- Achievement 2 -->
+                    <div class="achievement-card glass-card animate-on-scroll">
+                        <div class="ach-icon-container">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>MERN Stack Projects</h3>
+                        <p>Currently engineering an AI Resume Builder & Analyzer, utilizing microservices logic, express frameworks, and mongodb database schemas.</p>
+                    </div>
+
+                    <!-- Achievement 3 -->
+                    <div class="achievement-card glass-card animate-on-scroll">
+                        <div class="ach-icon-container">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3>Practical Academics</h3>
+                        <p>Developed multiple personal and academic websites focused on responsive UI, performance metrics, and responsive viewport support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle-tag">Get in Touch</span>
+                    <h2 class="section-title">Let's Build Something Together</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info Panel -->
+                    <div class="contact-info glass-card">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out to me! I'm always open to discussing new internship opportunities, creative projects, or technical ideas.</p>
+                        
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="info-text">
+                                    <span>Email Me</span>
+                                    <a href="mailto:chandani.tech25@gmail.com">chandani.tech25@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="info-text">
+                                    <span>Call Me</span>
+                                    <a href="tel:+919250397260">+91 9250397260</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="info-text">
+                                    <span>Location</span>
+                                    <p>India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials-header">
+                            <h4>Connect with me</h4>
+                            <div class="social-links-footer">
+                                <a href="https://linkedin.com/in/chandani-chaurasiya-71a2b5397" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container glass-card">
+                        <form id="contact-form" autocomplete="off">
+                            <div class="form-group">
+                                <label for="form-name">Your Name</label>
+                                <input type="text" id="form-name" required placeholder="e.g. John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Your Email</label>
+                                <input type="email" id="form-email" required placeholder="e.g. john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" required placeholder="Project discussion, Internship opportunity, etc.">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="5" required placeholder="Tell me about your project, idea, or role..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div class="form-status" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#" class="logo">Chandani<span>.tech</span></a>
+                <p>Crafting high-quality software experiences. CS Engineering Student & Developer.</p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2026 Chandani Chaurasiya. All rights reserved.</p>
+                <p>Designed with <i class="fa-solid fa-heart" style="color: #ef4444;"></i> using HTML, CSS, & JS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
